@@ -208,6 +208,19 @@ main {
   color: white;
   height: 60px; }
 
+#contact-footer {
+  text-align: center;
+  padding: 1rem;
+  background: #1b1919;
+  color: white;
+  height: 80px; }
+
+.footer-icons a {
+  padding: 0.4rem; }
+  .footer-icons a:hover {
+    color: #eec11a;
+    transition: all 0.5s ease-out; }
+
 @media screen and (min-width: 1171px) {
   .projects {
     grid-template-columns: repeat(3, 1fr); } }

@@ -163,5 +163,21 @@ main {
   height: 60px;
 
 }
+#contact-footer {
+  text-align: center;
+  padding: 1rem;
+  background: darken($color: $primary-color, $amount: 10);
+  color: white;
+  height: 80px;
+}
+.footer-icons {
+  a {
+    padding: 0.4rem;
 
+    &:hover {
+      color: $secondary-color;
+      @include easeOut();
+    }
+  }
+}
 @import 'mobile';
