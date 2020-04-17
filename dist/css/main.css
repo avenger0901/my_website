@@ -76,18 +76,6 @@
 .nav-item:nth-child(4) {
   transition-delay: 0.4s; }
 
-@media screen and (max-width: 768px) {
-  main {
-    align-items: center;
-    text-align: center; }
-    main .lg-heading {
-      line-height: 1;
-      margin-bottom: 1rem; } }
-
-@media screen and (max-width: 500px) {
-  main#home h1 {
-    margin-top: 10vh; } }
-
 * {
   box-sizing: border-box; }
 
@@ -142,7 +130,7 @@ header {
 
 main {
   padding: 4rem;
-  height: 100%; }
+  min-height: calc(100vh -60px); }
   main .icons {
     margin-top: 1rem; }
     main .icons a {
@@ -154,3 +142,54 @@ main {
     overflow: hidden; }
     main#home h1 {
       margin-top: 20vh; }
+
+.about-info {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-areas: 'bioimage bio bio' 'project1 project2 project3';
+  grid-template-columns: repeat(3, 1fr); }
+
+.bio-image {
+  grid-area: bioimage;
+  margin: auto;
+  border-radius: 30%;
+  border: #eec11a 3px solid; }
+
+.bio {
+  grid-area: bio; }
+
+.project-1 {
+  grid-area: project1; }
+
+.project-2 {
+  grid-area: project2; }
+
+.project-3 {
+  grid-area: project3; }
+
+.project {
+  background: #423e3e;
+  padding: 0.5rem;
+  border-bottom: #eec11a 5px solid; }
+
+#main-footer {
+  text-align: center;
+  padding: 1rem;
+  background: #1b1919;
+  color: white;
+  height: 60px; }
+
+@media screen and (max-width: 768px) {
+  main {
+    align-items: center;
+    text-align: center; }
+    main .lg-heading {
+      line-height: 1;
+      margin-bottom: 1rem; }
+  .about-info {
+    grid-template-areas: 'bioimage' 'bio' 'project1' 'project2' 'project3';
+    grid-template-columns: 1fr; } }
+
+@media screen and (max-width: 500px) {
+  main#home h1 {
+    margin-top: 10vh; } }

@@ -18,7 +18,17 @@
       line-height: 1;
       margin-bottom: 1rem;
     }
-  }  
+  } 
+  .about-info {
+    grid-template-areas: 
+    'bioimage'
+    'bio'
+    'project1'
+    'project2'
+    'project3';
+
+    grid-template-columns: 1fr;
+  } 
 }
 
 //Smartphones

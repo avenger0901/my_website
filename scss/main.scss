@@ -1,13 +1,11 @@
 @import 'config';
 @import 'menu';
-@import 'mobile';
+
 $primary-color:rgb(53, 50, 50);
 $secondary-color: #eec11a;
 $show-home-image: true;
 $home-image: url(../img/portland-oregon-activities-attractions.jpg);
 $background-opacity:0.9;
-
-
 
 * {
   box-sizing:border-box;
@@ -56,7 +54,8 @@ header {
 
 main {
   padding: 4rem;
-  height: 100%;
+  // height: 100%;
+  min-height: calc(100vh -60px);
 
   .icons {
     margin-top: 1rem;
@@ -77,3 +76,51 @@ main {
     }
   }
 }
+
+.about-info {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-areas: 
+  'bioimage bio bio'
+  'project1 project2 project3';
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.bio-image {
+  grid-area: bioimage;
+  margin:auto;
+  border-radius: 30%;
+  border:$secondary-color 3px solid;
+}
+
+.bio {
+  grid-area: bio;
+}
+
+.project-1 {
+  grid-area: project1;
+}
+
+.project-2 {
+  grid-area: project2;
+}
+
+.project-3 {
+  grid-area: project3;
+}
+.project {
+  background: lighten($color: $primary-color, $amount: 5);
+  padding: 0.5rem;
+  border-bottom: $secondary-color 5px solid;
+}
+
+#main-footer {
+  text-align: center;
+  padding: 1rem;
+  background: darken($color: $primary-color, $amount: 10);
+  color: white;
+  height: 60px;
+
+}
+
+@import 'mobile';
