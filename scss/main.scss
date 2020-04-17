@@ -97,23 +97,64 @@ main {
   grid-area: bio;
 }
 
-.project-1 {
-  grid-area: project1;
+.hobby-1 {
+  grid-area: hobby1;
 }
 
-.project-2 {
-  grid-area: project2;
+.hobby-2 {
+  grid-area: hobby2;
 }
 
-.project-3 {
-  grid-area: project3;
+.hobby-3 {
+  grid-area: hobby3;
 }
-.project {
+.hobby {
   background: lighten($color: $primary-color, $amount: 5);
   padding: 0.5rem;
   border-bottom: $secondary-color 5px solid;
 }
+//projects
+.projects {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
 
+  img {
+    width: 100%;
+    border:3px #fff solid;
+
+    &:hover {
+      opacity:0.5;
+      border-color: $secondary-color;
+      @include easeOut;
+    }
+  }
+
+}
+
+//Button Styles
+.btn {
+  display: inline-block;
+  padding: 0.3rem 2.7rem;
+  border: 0;
+  margin-bottom: 0.3rem;
+
+  &:hover {
+    background: $secondary-color;
+    color: lightyellow ;
+  }
+}
+.btn-dark{
+  @extend .btn;
+  background: darken($color: ($primary-color), $amount: 50);
+  color: #fff;
+}
+
+.btn-light {
+  @extend .btn;
+  background: lighten($color: $primary-color, $amount: 50);
+  color:#fff
+}
 #main-footer {
   text-align: center;
   padding: 1rem;
