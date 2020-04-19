@@ -36,19 +36,23 @@
   </nav>
   </header>
 
-  <main id="work">
+  <main id="contact">
     <h1 class="lg-heading">
       Get in <span class="text-secondry">Touch!</span>
     </h1>
     <h2 class="sm-heading">
       If you want to get in touch, or just say hi, fill up the from below or send an email to ziyi.venger@gmail.com.
     </h2>
-  <form action="mailto:ziyi.venger@gmail.com" method="POST" enctype="multipart/form-data" name="EmailForm">
-    <input placeholder="Name" type="text" size="24" name="name" required><br>
-    <input placeholder="Enter your email" type="email" name="email" required><br>
-    <textarea placeholder="Your Message" type="text" name="message" spellcheck="false"></textarea>
-    <input class="button" type="submit" id="submit" value="SUBMIT">
-  </form>
+
+    <div class="container flex">
+      <form action="mailto:ziyi.venger@gmail.com" method="POST" enctype="multipart/form-data" name="EmailForm">
+        <input class="user-info" placeholder="Name" type="text" size="24" name="name" required><br>
+        <input class="user-info" placeholder="Enter your email" type="email" name="email" required><br>
+        <textarea placeholder="Your Message" type="text" name="message" spellcheck="false"></textarea>
+        <input class="button" type="submit" id="submit" value="SUBMIT">
+      </form>
+    </div>
+
   </main>
   <footer id="contact-footer">
     <div class="footer-icons">
