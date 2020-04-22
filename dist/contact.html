@@ -7,7 +7,7 @@
  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
   <title>View My Work</title>
 </head>
-<body>
+<body class="contact-body">
   <header>
   <div class="menu-btn">
     <div class="btn-line"></div>
@@ -30,39 +30,30 @@
         <a href="work.html" class="nav-link">My Work</a>
       </li>
       <li class="nav-item current">
-        <a href="contact.html " class="nav-link">How To Reach Me</a>
+        <a href="contact.html" class="nav-link">How To Reach Me</a>
       </li>
     </ul>
   </nav>
   </header>
 
-  <main id="contact">
+  <main id="contact-container">
     <h1 class="lg-heading">
-      Get in <span class="text-secondry">Touch!</span>
+      Get in <span class="text-secondry">Touch</span>
     </h1>
     <h2 class="sm-heading">
-      If you want to get in touch, or just say hi, fill up the from below or send an email to ziyi.venger@gmail.com.
+      If you have any questions about my projects, or you just want to say hi, please fill out the form! Or you can email me directly at ziyi.venger@gmail.com 
     </h2>
-
-    <div class="container flex">
-      <form action="mailto:ziyi.venger@gmail.com" method="POST" enctype="multipart/form-data" name="EmailForm">
-        <input class="user-info" placeholder="Name" type="text" size="24" name="name" required><br>
-        <input class="user-info" placeholder="Enter your email" type="email" name="email" required><br>
-        <textarea placeholder="Your Message" type="text" name="message" spellcheck="false"></textarea>
-        <input class="button" type="submit" id="submit" value="SUBMIT">
+    <div class="contact-form">
+      <form id="contact-form" method="post" action="contact-handler.php">
+        <input name="name" type="text" class="form-control" placeholder="Your Name" required>
+        <input name="email" type="text" class="form-control" placeholder="Your Email" required>
+        <textarea name="message" class="form-control" placeholder="Type your message here:" cols="30" rows="10" required></textarea>
+        <input type="submit" class="form-control submit-button" value="SEND MESSAGE">
       </form>
     </div>
-
   </main>
-  <footer id="contact-footer">
-    <div class="footer-icons">
-      <a href="#!">
-        <i class="fab fa-linkedin fa-2x"></i>
-      </a>
-      <a href="#!">
-        <i class="fab fa-github fa-2x"></i>
-      </a>
-    </div>
+  
+  <footer id="main-footer">
     Copyright &copy; 2020
 
   </footer>
