@@ -1,6 +1,6 @@
 @import 'config';
 @import 'menu';
-
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
 $primary-color:rgb(53, 50, 50);
 $secondary-color: #eec11a;
 $show-home-image: true;
@@ -19,6 +19,7 @@ body{
   margin: 0;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   line-height: 1.5;
+
 }
 
 h1,
@@ -185,7 +186,7 @@ form {
   transition: all 4s ease-in-out;
 }
 .form-control{
-  width:600px;
+  width:50vw;
   background: transparent;
   border: none;
   outline: none;
@@ -211,9 +212,10 @@ input{
   background-color: #4b0be0;
   cursor:pointer
 }
-#contact-form{
-position: relative;
-left: 150px;
+
+.contact-form{
+position: fixed;
+left: 100px;
 }
 
 @import 'mobile';

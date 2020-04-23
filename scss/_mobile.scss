@@ -3,6 +3,7 @@
   .projects {
     grid-template-columns: repeat(3, 1fr);
   }
+  
 
 }
 
@@ -11,6 +12,8 @@
   .projects {
     grid-template-columns: repeat(3, 1fr);
   }
+ 
+  
 }
 
 //Tablets & Small Laptops
@@ -37,6 +40,8 @@
 
     grid-template-columns: 1fr;
   } 
+
+
 }
 
 //Smartphones
@@ -47,6 +52,9 @@
   .projects {
     grid-template-columns: repeat(1, 1fr);
   }
+
+  
+
 }
 
 
