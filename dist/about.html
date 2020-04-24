@@ -7,7 +7,7 @@
  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
   <title>About Me</title>
 </head>
-<body>
+<body class="about-body">
   <header>
   <div class="menu-btn">
     <div class="btn-line"></div>
@@ -41,32 +41,48 @@
       About <span class="text-secondry">Me</span>
     </h1>
     <h2 class="sm-heading">
-     I am a full-stack developer. 
+     I'm a full stuck developer based in Portland,Oregon.
      <br>
-     Here's are the things that I do when I am not coding:
+     I am passion for inovation and love to create web applications!
     </h2>
     <div class="about-info">
       <img src="img/me.png" alt="Angela" class="bio-image" height="300px" width="250px">
       <div class="bio">
-        <h3 class="text-secondary"></h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora id hic, error exercitationem molestiae vero, ducimus at eveniet assumenda ut modi cumque sint ipsa totam?</p>
       </div>
+    </div>
 
-      <div class="hobby hobby1">
-        <h3>Chinese Alphabet Learning App</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui facere maiores eaque reiciendis totam deleniti inventore porro assumenda animi recusandae!</p>
-      </div>
+    <div class="slideshow-container">
 
-      <div class="hobby hobby2">
-        <h3>Natraul Events Tracking App</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui facere maiores eaque reiciendis totam deleniti inventore porro assumenda animi recusandae!</p>
-      </div>
-
-      <div class="hobby hobby3">
-        <h3>Work Collacbrate Ticketing App</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui facere maiores eaque reiciendis totam deleniti inventore porro assumenda animi recusandae!</p>
+      <!-- Full-width images with number and caption text -->
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="./img/hot4k.jpg" style="width:100%">
+        <div class="text">Caption Text</div>
       </div>
     
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="./img/hotballon.jpg" style="width:100%">
+        <div class="text">Caption Two</div>
+      </div>
+    
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="./img/northen_light.jpg" style="width:100%">
+        <div class="text">Caption Three</div>
+      </div>
+    
+     
+   
+    </div>
+    <br>
+    
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
     </div>
   </main>
   <footer id="main-footer">
