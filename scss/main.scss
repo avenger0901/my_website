@@ -189,7 +189,8 @@ main {
   grid-template-columns: repeat(3, 1fr);
 
   img {
-    width: 100%;
+    width: 28vw;
+    height: 38vh;
     border:3px #fff solid;
 
     &:hover {
@@ -203,10 +204,11 @@ main {
 
 //Button Styles
 .btn {
+
   display: inline-block;
-  padding: 0.3rem 2.7rem;
+  padding: 0.4rem 4.3rem;
   border: 0;
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.4rem;
 
   &:hover {
     background: $secondary-color;
@@ -215,13 +217,13 @@ main {
 }
 .btn-dark{
   @extend .btn;
-  background: darken($color: ($primary-color), $amount: 50);
+  background:rgb(82,67,112);
   color: #fff;
 }
 
 .btn-light {
   @extend .btn;
-  background: lighten($color: $primary-color, $amount: 50);
+  background: rgb(34,42,94);
   color:#fff
 }
 #main-footer {

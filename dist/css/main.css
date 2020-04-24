@@ -242,7 +242,8 @@ main {
   grid-gap: 20px;
   grid-template-columns: repeat(3, 1fr); }
   .projects img {
-    width: 100%;
+    width: 28vw;
+    height: 38vh;
     border: 3px #fff solid; }
     .projects img:hover {
       opacity: 0.5;
@@ -251,19 +252,19 @@ main {
 
 .btn, .btn-dark, .btn-light {
   display: inline-block;
-  padding: 0.3rem 2.7rem;
+  padding: 0.4rem 4.3rem;
   border: 0;
-  margin-bottom: 0.3rem; }
+  margin-bottom: 0.4rem; }
   .btn:hover, .btn-dark:hover, .btn-light:hover {
     background: #eec11a;
     color: lightyellow; }
 
 .btn-dark {
-  background: black;
+  background: #524370;
   color: #fff; }
 
 .btn-light {
-  background: #b5b1b1;
+  background: #222a5e;
   color: #fff; }
 
 #main-footer {
