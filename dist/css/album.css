@@ -1,26 +1,4 @@
-/* 
-.album-photo{
-  border: 1px solid white;
-  height: 53vh;
-  width: 25vw;
-  box-shadow: 10px 10px 25px black;
-  border-collapse: separate;
-  margin: 50px;
-}
 
-.large-album-container{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  
-}
-.album-photo1{
-  height: 40vh;
-  width: 40vw;
-  padding: 20px;
-  align-items: center;
-  align-self: center;
-} */
 * {
   box-sizing: border-box;
 }
@@ -39,7 +17,7 @@ img {
 }
 .wrapper {
   width: 100%;
-  padding: 10rem 2rem;
+  padding: 5rem 2rem;
   text-align: center;
 }
 .polaroid {
@@ -70,8 +48,8 @@ img {
 }
 .item:nth-of-type(4n+1) .polaroid:before {
   transform: rotate(6deg);
-  height: 20%;
-  width: 47%;
+  height: 40%;
+  width: 27%;
   bottom: 30px;
   right: 12px;
   box-shadow: 0 2.1rem 2rem rgba(0,0,0,0.4);

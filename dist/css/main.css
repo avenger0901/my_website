@@ -244,6 +244,10 @@ a.button {
   background: linear-gradient(rgba(0, 0, 50, 0.5), rgba(0, 0, 50, 0.5)), url(/dist/img/hot4k.jpg);
   background-size: cover; }
 
+.album-body {
+  background: linear-gradient(rgba(0, 0, 50, 0.5), rgba(0, 0, 50, 0.5)), url(/dist/album/star-wars-backgrounds.jpg);
+  background-size: cover; }
+
 form {
   margin-top: 50px;
   transition: all 4s ease-in-out; }
