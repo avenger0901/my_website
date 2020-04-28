@@ -3,11 +3,9 @@
   box-sizing: border-box;
 }
 body {
-  font-family: "Indie Flower";
   line-height: 1.618em;
-  background-color: #e4d4bb;
   background-image: repeating-radial-gradient(circle, 
-    #E4D4BB, #E7DAC6 50%, #E7DAC6 100%
+    rgb(20, 18, 15), rgb(61, 59, 56) 50%, rgb(20, 17, 13) 100%
   );
   background-size: 10px 10px;
 }

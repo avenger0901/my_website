@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/avenger0901/my_website#readme",
   "dependencies": {
+    "compass": "^0.1.1",
     "node-sass": "^4.13.1"
   }
 }

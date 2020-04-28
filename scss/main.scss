@@ -56,7 +56,7 @@ header {
 
 main {
   padding: 4rem;
-  height: 1300px;
+  height: 100%;
   // min-height: calc(100vh -60px);
 
   .icons {
@@ -91,7 +91,7 @@ a.button{
   position: relative;
   bottom: 3px;
   background:#eec11a;
-  border-radius: 12px;
+  border-radius: 8px;
   color: #fff;
   font-size: 14px;
   letter-spacing: 2px;
@@ -99,13 +99,6 @@ a.button{
   padding: 5px;
 }
 
-
-
-.bio-image {
-  grid-area: bioimage;
-  margin:auto;
-  border:#fff 10px solid;
-}
 
 .bio {
   grid-area: bio;
@@ -137,12 +130,6 @@ a.button{
     width: 28vw;
     height: 38vh;
     border:3px #fff solid;
-
-    &:hover {
-      opacity:0.5;
-      border-color: $secondary-color;
-      @include easeOut;
-    }
   }
 
 }
@@ -180,6 +167,26 @@ a.button{
 
 }
 
+#work-footer {
+  position: relative;
+  top:23vh;
+  text-align: center;
+  padding: 1rem;
+  background: darken($color: $primary-color, $amount: 10);
+  color: white;
+  height: 60px;
+}
+
+#contact-footer {
+  position: relative;
+  top:2vh;
+  text-align: center;
+  padding: 1rem;
+  background: darken($color: $primary-color, $amount: 10);
+  color: white;
+  height: 60px;
+}
+
 .user-info {
   background-color: lightgrey;
   width: 50%;
@@ -204,15 +211,14 @@ a.button{
   background: linear-gradient(rgba(0, 0, 50, 0.5),rgba(0, 0, 50, 0.5)),url(/dist/img/hot4k.jpg);
   background-size: cover;
 }
-.album-body{
-  background: linear-gradient(rgba(0, 0, 50, 0.5),rgba(0, 0, 50, 0.5)),url(/dist/album/album-background.jpg);
-  background-size: cover;
-}
+
 
 
 form {
-  margin-top: 50px;
-  transition: all 4s ease-in-out;
+  position: relative;
+  left: 20px;
+  margin-top: 110px;
+  margin-bottom: 20.8rem;
 }
 .form-control{
   width:50vw;
@@ -246,5 +252,7 @@ input{
 position: fixed;
 left: 100px;
 }
+
+
 
 @import 'mobile';
