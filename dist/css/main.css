@@ -114,7 +114,7 @@ h3 {
   h2.sm-heading,
   h3.sm-heading {
     margin-bottom: 2rem;
-    padding: 0.2rem 1rem;
+    padding: 2rem 2rem;
     background: rgba(58, 55, 55, 0.5); }
 
 a {
@@ -164,8 +164,7 @@ a.button {
 .bio-image {
   grid-area: bioimage;
   margin: auto;
-  border-radius: 30%;
-  border: #eec11a 3px solid; }
+  border: #fff 10px solid; }
 
 .bio {
   grid-area: bio; }
@@ -245,7 +244,7 @@ a.button {
   background-size: cover; }
 
 .album-body {
-  background: linear-gradient(rgba(0, 0, 50, 0.5), rgba(0, 0, 50, 0.5)), url(/dist/album/star-wars-backgrounds.jpg);
+  background: linear-gradient(rgba(0, 0, 50, 0.5), rgba(0, 0, 50, 0.5)), url(/dist/album/album-background.jpg);
   background-size: cover; }
 
 form {
@@ -257,7 +256,7 @@ form {
   background: transparent;
   border: none;
   outline: none;
-  border-bottom: 2px solid gray;
+  border-bottom: 2px solid lightgray;
   color: #fff;
   font-size: 20px;
   margin-bottom: 16px; }
