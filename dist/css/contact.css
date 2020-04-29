@@ -92,34 +92,34 @@ input {
     align-items: center;
   }
   form{
-    width: 250px;
+    width: 400px;
     height: 340px;
     position: relative;
     left:10px;
   }
   textarea{
-    width: 180px;
+    width: 320px;
     height: 90px;
   }
   input{
-    width: 180px;
+    width: 320px;
     height: 30px;
   }
 }
 
 @media screen and (mid-width: 769px) and (max-width:1170px){
   form{
-    width: 550px;
+    width: 450px;
     height: 450px;
     position: relative;
-    left:100px;
+    left:50px;
   }
   textarea{
-    width: 420px;
+    width: 380px;
     height: 100px;
   }
   input{
-    width: 420px;
+    width: 380px;
     height: 40px;
   }
 }
