@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin|Playfair+Display&display=swap');
+
+* {
+    margin: 0;
+    background-origin: border-box;
+    text-align: center;
+
+}
+
+#nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+    width: 150px;
+    background-color: #f1f1f1;
+  }
+  
+nav a {
+    display: block;
+    color: #000;
+    padding: 2px 16px;
+    text-decoration: none;
+    font-size: 22px;
+    z-index: 2;
+    
+  }
+  
+  /* Change the link color on hover */
+nav a:hover {
+    background-color: #555;
+    color: white;
+  }
+
+  .active {
+    background-color: #F2BDBD;
+    color: white;
+  }
+
+
+h1 {
+  font-family: 'Playfair Display'
+
+}
+
+#container {
+  position: fixed;
+  align-content: center;
+  justify-content: center;
+  
+  
+}
+
+#giant-button {
+  margin: 20px;
+  width: 80%;
+  height: 800px;
+  font-size: 150px;
+  padding: 25px;
+  border: 5px solid lightblue;
+  font-family: 'Playfair Display'
+  
+}
+
+#giant-button:hover {
+  cursor: pointer;
+  background-color:  #F2BDBD;
+}
+
+#bamboo img {
+  top: 40%;
+  left: 85%;
+  bottom: 50%;
+  height: 800px;
+  opacity: .2;
+  
+}
