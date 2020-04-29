@@ -1,0 +1,30 @@
+@media screen and (max-width:500px){
+  .btn-dark{
+    visibility: hidden;
+  }
+  .item{
+    display: flex;
+    flex-direction: column;
+  }
+  .btn-light{
+	  -moz-border-radius: 4px;
+	  -webkit-border-radius: 4px;
+	  border-radius: 4px;
+    border: 1px solid #253737;
+    background: #416b68;
+    background: -webkit-gradient(linear, left top, left bottom, from(#7d37c2), to(#a16ee9));
+    background: -webkit-linear-gradient(top, #4733aa, #4a416b);
+    background: -moz-linear-gradient(top,  #cb78e7, #53416b);
+    background: -ms-linear-gradient(top, #cab40b, #cda816);
+    background: -o-linear-gradient(top, #e6e14a, #a89c3e);
+    background-image: -ms-linear-gradient(top, #cacd4b 0%, #cbb122 100%);
+    padding: 10.5px 21px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+  
+    text-shadow: #333333 0 1px 0;
+    color: #e1e1e1;
+}
+  }
+}
