@@ -135,12 +135,10 @@ a.button{
 
 //Button Styles
 .btn {
-
   display: inline-block;
   padding: 0.4rem 4.3rem;
   border: 0;
   margin-bottom: 0.4rem;
-
   &:hover {
     background: $secondary-color;
     color: lightyellow ;
@@ -150,6 +148,7 @@ a.button{
   @extend .btn;
   background:rgb(82,67,112);
   color: #fff;
+  
 }
 
 .btn-light {
