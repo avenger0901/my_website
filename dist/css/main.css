@@ -261,10 +261,9 @@ a.button {
     align-items: center;
     text-align: center; }
     main .lg-heading {
+      font-size: 38px;
       line-height: 1;
       margin-bottom: 1rem; }
-    main .sm-heading {
-      margin-bottom: 2rem; }
   ul.menu-nav,
   div.menu-branding {
     float: none;
@@ -293,6 +292,6 @@ a.button {
       margin-top: 10vh; }
     main .lg-heading {
       margin-top: 1rem;
-      font-size: 5rem; }
+      font-size: 38px; }
   .projects {
     grid-template-columns: 1fr; } }
