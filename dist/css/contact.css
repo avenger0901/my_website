@@ -92,17 +92,17 @@ input {
     align-items: center;
   }
   form{
-    width: 400px;
+    width: 380px;
     height: 340px;
     position: relative;
     left:10px;
   }
   textarea{
-    width: 320px;
+    width: 280px;
     height: 90px;
   }
   input{
-    width: 320px;
+    width: 280px;
     height: 30px;
   }
 }
