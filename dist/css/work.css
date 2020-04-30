@@ -57,3 +57,12 @@
   }
 }
 
+.project-title{
+  font: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-bottom: 5px;
+  align-self: center;
+  text-align: center;
+  line-height: 2;
+  font-size: 20px;
+  
+}
